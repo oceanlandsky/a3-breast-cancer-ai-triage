@@ -1,0 +1,16 @@
+|--- worst perimeter <= 112.80
+|   |--- worst concave points <= 0.16
+|   |   |--- area error <= 35.44
+|   |   |   |--- class: 0
+|   |   |--- area error >  35.44
+|   |   |   |--- class: 0
+|   |--- worst concave points >  0.16
+|   |   |--- class: 1
+|--- worst perimeter >  112.80
+|   |--- worst concave points <= 0.14
+|   |   |--- worst perimeter <= 120.35
+|   |   |   |--- class: 0
+|   |   |--- worst perimeter >  120.35
+|   |   |   |--- class: 1
+|   |--- worst concave points >  0.14
+|   |   |--- class: 1
